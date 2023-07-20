@@ -1,0 +1,32 @@
+.trust {
+    margin-top: 9rem;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.logoz {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    padding-bottom: 4rem;
+}
+
+.logoss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .logoss {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

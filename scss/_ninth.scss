@@ -1,0 +1,77 @@
+.twelve {
+    background-color: rgb(240, 248, 252);
+    padding-bottom: 6rem;
+}
+
+.customer-review {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:  3rem;
+    column-gap: 20px;
+
+}
+
+.sheryl {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+
+
+.review-box {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 10px;
+    display: block;
+    border-top: 1px solid rgba(15,23,42,.1);
+}
+
+.write-up {
+    padding-bottom: 2rem;
+}
+
+.shery {
+    line-height: 2;
+}
+
+.berge {
+    font-weight: 400;
+}
+
+.myne {
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+}
+
+@media screen and (max-width: 480px) {
+    .customer-review {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: .9rem;
+    }
+
+    .write-up {
+        padding-bottom: 1.5rem;
+    }
+    
+    .sheryl {
+        padding-top: 1.5rem;
+    }
+}
+

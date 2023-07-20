@@ -1,0 +1,150 @@
+.thirteen {
+    background-color:  rgb(15 23 42);
+
+
+
+.simple {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    line-height: 3.5rem;
+}
+
+.price {
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.matter {
+    font-size: 1.125rem;
+    letter-spacing: -.025em;
+    color: rgb(148 163 184);
+    font-weight: 300;
+}
+
+.amountt {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.sub-boxes {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-bottom: 6rem;
+}
+
+.starter {
+    color: #fff;
+    line-height: 2.3;
+    font-weight: 400;
+}
+
+.good {
+    color: rgb(148 163 184);
+    line-height: 2;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 320px;
+}
+
+.button-1 {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: .5rem;
+    border-radius: 9999px;
+    color: #fff;
+    border: 1px solid white;
+    line-height: 4.5;
+    flex-grow: 1;
+}
+
+.button-2 {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: .5rem;
+    border-radius: 9999px;
+    color: #000;
+    background-color: #fff;
+    line-height: 4.5;
+    font-weight: 400;
+    flex-grow: 1;
+
+    &:hover {
+        background-color: rgb(239 246 255);
+    }
+}
+
+.details {
+    display: flex;
+    color: #fff;
+    line-height: 2.5;
+}
+
+.check {
+    padding-top: 10px;
+    padding-right: 20px;
+    color: rgb(148 163 184);
+}
+
+.checke {
+    padding-top: 10px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.middle-grid {
+    background-color: $fourth-color;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.perfect {
+    color: #fff;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 300px;
+}
+
+.find {
+    font-size: 1.125rem;
+    letter-spacing: -.025em;
+    color: rgb(51 65 85);
+    font-weight: 300;
+    width: 700px;
+}
+
+@media screen and (max-width: 480px) {
+    .sub-boxes {
+        display: grid;
+        grid-template-columns:  1fr;
+        margin-left: 0;
+        padding-left: 10px;
+    }
+
+    .price {
+        font-size: 1.8rem;
+        text-align: left; 
+        margin-left: 10px;
+        line-height: 1.5;
+    }
+
+    .matter {
+        line-height: 2;
+        text-align: left;
+        margin-left: 10px; 
+        font-size: 1rem;
+    }
+}
+}
+
+
+

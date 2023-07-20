@@ -1,0 +1,43 @@
+.nine {
+    box-sizing: border-box;
+    background-color: #b3afcf32;
+    border-radius: 40px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 7rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.box {
+    margin: 4rem;
+    width: 100%;
+}
+
+.first-box {
+    margin-right: 10px;
+    width: 52.75rem;
+    flex-shrink: 0;
+}
+
+.second-box {
+    width: 52.75rem;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        margin: 10px;
+        width: 75%;
+    }
+
+    .nine {
+        border-radius: 0px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 7rem;
+    }
+}
+

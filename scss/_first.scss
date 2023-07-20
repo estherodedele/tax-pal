@@ -1,0 +1,253 @@
+body {
+    background-color: $second-color;
+    color: $third-color;
+    font-family: $font-stack;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5rem;
+}
+
+
+.number-one {
+    display: flex;
+    margin-top: 20px;
+}
+
+.line-one {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.line-two {
+    display: flex;
+    margin-top: 20px;
+    font-size: .875rem;
+
+    nav {
+        display: flex;
+                
+        ul {
+            display: flex;   
+        }
+
+        li {
+            list-style: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        a:hover {
+            box-sizing: border-box;
+            background-color: #eef4fd;
+            border-radius: 5px;
+        }   
+    }
+}
+
+
+
+.number-three {
+    display: flex;
+    margin-top: 20px;
+}
+
+.line-three {
+    display: flex;
+    margin-top: 20px;
+    
+
+    nav {
+        display: flex;
+                
+        ul {
+            display: flex;   
+        }
+
+        li {
+            list-style: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }   
+    }
+}
+
+.hamburger {
+    display: none;
+}
+
+.sign {
+    font-size: .875rem;
+    padding: 5px;
+
+    &:hover {
+        box-sizing: border-box;
+        background-color: #eef4fd;
+        
+        border-radius: 5px;
+    }
+}
+
+
+.get {
+    box-sizing: border-box;
+    border-radius: 150px;
+    padding: 8px 16px;
+    background-color: rgb(37, 99, 235);
+    color:#fff;
+    font-weight: 700;
+    font-size: 14px;
+
+    &:hover {
+        background-color: rgb(59, 130, 246);
+       }
+}
+
+.second-header {
+    padding-top: 5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+}
+
+.sec-head { 
+    font-size: 3.5em;
+    
+}
+
+acc {
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+.made {
+    color: $fourth-color;
+}
+
+.third-header {
+    font-size: 1.125rem;
+    color: $first-color;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40rem;
+    line-height: 2rem;
+    letter-spacing: -.025em;
+    margin-bottom: 2.5rem;
+}
+
+.fourth-header {
+    margin-top: 2.5rem;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+
+.gett {
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(15, 23, 42);
+    border-radius: 9999px;
+    font-size: .875rem;
+    font-weight: 500;
+
+    &:hover {
+        background-color: rgb(51, 65, 85);
+    }
+}
+
+.free {
+    color: #fff;
+    font-weight: 700;
+}
+
+.button {
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-decoration: none;
+    border-radius: 9999px;
+    border-style: solid;
+    border-color:  rgb(229, 231, 235);
+    color:  rgb(51, 65, 85);
+    font-size: .875rem;
+}  
+
+.caret {
+    color: $fourth-color;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .second-header {
+        font-size: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .third-header {
+        font-size: 1.11rem;
+        padding-right: 15px;
+        padding-left: 10px;
+    }
+
+    .fourth-header {
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+    .free {
+        line-height: 1.5;
+    }
+
+    .button {
+        line-height: 1.5;
+        padding-top: 15px;
+    }
+    
+    .caret {
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+
+    .line-two {
+        display: none;
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .main-header {
+        align-items: center;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+

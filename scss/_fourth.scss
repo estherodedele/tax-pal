@@ -1,0 +1,38 @@
+.seventh-header {
+    padding-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.simply {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 5rem;
+}
+
+.beca {
+    font-size: 1.125rem;
+    letter-spacing: -.025em;
+    line-height: 2rem;
+    color: rgb(51 65 85);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .simply {
+        text-align: left;
+        padding-left: 10px;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 300;
+    }
+
+    .beca {
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+}

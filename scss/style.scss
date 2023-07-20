@@ -1,0 +1,27 @@
+
+
+$font-stack: 'Lexend', sans-serif;
+$first-color: #334155;
+$second-color: #fff;
+$third-color: #000;
+$fourth-color: rgb(37, 99, 235);
+
+@import 'first';
+@import 'utility';
+@import 'second';
+@import 'third';
+@import 'fourth';
+@import 'fifth';
+@import 'sixth';
+@import 'seventh';
+@import 'eighth';
+@import 'ninth';
+@import 'tenth';
+@import 'eleventh';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
